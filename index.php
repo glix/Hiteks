@@ -72,16 +72,16 @@
 				<div class="row">
 					<div class="wrapper wrapper2">
 						<div class="content-box">
-							
+							<div class="searchbox_style">
 								<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
 								<div class="back" style="">
-									<form style="display:none" method="post" action="#" id="form" class="form">
+									<form style="display:none" method="post" action="" class="form">
 									<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
 									<a class="btn btn-default"  href="#">GO</a>
 									</form>
 								</div>
 								<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
-							
+							</div>
 						</div>
 					</div>
 					<?php
@@ -120,55 +120,74 @@
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a> -->
 								<a>
-									<img class="slider_img" src="img/footer_slider/iStock_000003473034Large.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/iStock_000003473034Large.jpg" alt="" />
+									</div>
+									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
+									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
+									
+								</a>
+								<a>
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/iStock_000006811627XSmall.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/iStock_000006811627XSmall.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/iStock_000010754350XLarge.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/iStock_000010754350XLarge.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/jj_natlgeodude.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/jj_natlgeodude.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/mind chalk.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/mind chalk.jpg" alt="" />
-									<img src="img/footer_slider/humedica.png" alt="" />
-									<img src="img/footer_slider/himss.png" alt="" />
-									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
-								</a>
-								<a> 
-									<img class="slider_img" src="img/footer_slider/XR_041.JPG" alt="" />
-									<img src="img/footer_slider/humedica.png" alt="" />
-									<img src="img/footer_slider/himss.png" alt="" />
-									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
-								</a>
-								<a>
-									<img class="slider_img" src="img/footer_slider/brain fly.jpg" alt="" />
+									<div class="img_shadow"> 
+										<img class="slider_img" src="img/footer_slider/XR_041.JPG" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/head7.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/brain fly.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<img class="slider_img" src="img/footer_slider/iStock_000000409116_L2.jpg" alt="" />
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/head7.jpg" alt="" />
+									</div>
+									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
+									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
+								</a>
+								<a>
+									<div class="img_shadow">
+										<img class="slider_img" src="img/footer_slider/iStock_000000409116_L2.jpg" alt="" />
+									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
@@ -193,10 +212,10 @@
 				    </ul>
 				</div>
 				<div class="company-names" style="clear:both;padding-top:15px">
-					<img src="images/footer1.png" alt="2" style="margin-right:18px; height:25px" class="firstnames" />
-				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;" />
-					<img src="images/anolinx.png" alt="4" style="height:50px;width:100px"/>
-					<img src="images/fda_logo.png" alt="5" style="height:50px" />
+					<img src="images/footer1.png" alt="2" style="margin-right:18px; height:24px" class="firstnames" />
+				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;padding-right:8px" />
+					<img src="images/anolinx.png" alt="4" style="height:50px;width:80px"/>
+					<img src="images/fda_logo.png" alt="5" style="height:43px" />
 					<img src="images/acupera.png" alt="6" style="height:25px" />
 					<img src="images/eellas_logo.png" alt="6" style="height:50px;margin-top:-10px" />
 				</div>
@@ -863,6 +882,7 @@
 				
 				$('.search').keyup(function(event){
 					var s=$(this).val();
+					console.log(s);
 					if(s == ""){
 						stateNormal();
 					}else{
