@@ -72,14 +72,16 @@
 				<div class="row">
 					<div class="wrapper wrapper2">
 						<div class="content-box">
-							<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
-							<div class="back" style="">
-								<form style="display:none" method="post" action="" class="form">
-								<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
-								<a class="btn btn-default"  href="#">GO</a>
-								</form>
-							</div>
-							<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
+							
+								<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
+								<div class="back" style="">
+									<form style="display:none" method="post" action="#" id="form" class="form">
+									<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
+									<a class="btn btn-default"  href="#">GO</a>
+									</form>
+								</div>
+								<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
+							
 						</div>
 					</div>
 					<?php
@@ -120,46 +122,55 @@
 								<a>
 									<img class="slider_img" src="img/footer_slider/iStock_000003473034Large.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/iStock_000006811627XSmall.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/iStock_000010754350XLarge.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/jj_natlgeodude.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/mind chalk.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a> 
 									<img class="slider_img" src="img/footer_slider/XR_041.JPG" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/brain fly.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/head7.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
 									<img class="slider_img" src="img/footer_slider/iStock_000000409116_L2.jpg" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 							</div>
@@ -181,19 +192,13 @@
 					    <li>+1 212.920.0929 info@hiteks.com @hiteks</li>
 				    </ul>
 				</div>
-				<div class="company-names" style="clear:both;">
-					<!-- <img src="images/footer1.png" alt="2" style="margin-right:20px;" class="firstnames">
-				    <img src="images/footer3.png" alt="3" style="margin-right:15px">
-					<img src="images/footer5.png" alt="4" style="margin-right:15px">
-					<img src="images/footer7.png" alt="5" style="margin-right:15px">
-					<img src="images/footer9.png" alt="6" style="margin-right:15px">
-					<img src="images/footer10.png" alt="6" style="margin-right:15px"> -->
-					<img src="images/footer1.png" alt="2" style="margin-right:8px; height:25px" class="firstnames" />
-				    <img src="images/fda-logo-vector.png" alt="3" style="height:60px;" />
+				<div class="company-names" style="clear:both;padding-top:15px">
+					<img src="images/footer1.png" alt="2" style="margin-right:18px; height:25px" class="firstnames" />
+				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;" />
 					<img src="images/anolinx.png" alt="4" style="height:50px;width:100px"/>
 					<img src="images/fda_logo.png" alt="5" style="height:50px" />
 					<img src="images/acupera.png" alt="6" style="height:25px" />
-					<img src="images/eellas_logo.png" alt="6" style="margin-right:8px;" />
+					<img src="images/eellas_logo.png" alt="6" style="height:50px;margin-top:-10px" />
 				</div>
 				<div style="float:left;">
 					<div class="footer-nav">
@@ -221,10 +226,10 @@
 				</div>
 			</div>
 	<!--start services-mobile header-->
-			<section id="services-top-mobile" class="hidden-desktop">
+			<!-- <section id="services-top-mobile" class="hidden-desktop">
 				<h1 class="header">Services</h1>
 				<p class="header">How awesome can it be?</p>
-			</section>
+			</section> -->
 		</section>
 		
 	
@@ -847,9 +852,17 @@
 				;
 				timeoutHolder = setInterval(startAnimation, 200);
 				
+				$('.btn').on('click',function(){
+					if($('.search').val().length > 0){
+						stateNormal();
+						setInterval(function(){
+							$('.form').submit();
+						},3000);
+					}	
+				});
+				
 				$('.search').keyup(function(event){
 					var s=$(this).val();
-					console.log(s);
 					if(s == ""){
 						stateNormal();
 					}else{
