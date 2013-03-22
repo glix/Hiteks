@@ -70,6 +70,7 @@
 		<section id="intro" style="min-height:650px!important;">
 			<div class="container">
 				<div class="row">
+					
 					<div class="wrapper wrapper2">
 						<div class="content-box">
 							<div class="searchbox_style">
@@ -91,7 +92,7 @@
 							if($img==33){
 								$img=1;
 							}
-							echo "<div class='$i aObjects' style='display:none;opacity:.4;position:absolute;z-index:1;left:630px;top:400px;'><img src='icon/$img.png'/></div>";
+							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:630px;top:400px;'><img src='icon/$img.png'/></div>";
 						}
 					?>
 				</div>	
@@ -207,7 +208,7 @@
 				    <ul>
 					    <li>Hiteks. Medical Language Technology.</li>
 					    <li>Achieve Clinical Interoperability ability and Semantic search</li>
-					    <li>521 Fifth Ave, 32nd Floor. New York,NY 10175</li>
+					    <li>521 Fifth Ave, 32nd Floor. New York, NY 10175</li>
 					    <li>+1 212.920.0929 info@hiteks.com @hiteks</li>
 				    </ul>
 				</div>
@@ -255,7 +256,13 @@
 		<section id="services-top">
 	<!--start services-desktop header-->
 			<section id="services-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<h1 class="header">About</h1>
+				<div class="footer_about">
+					<div style="width:875px;margin:auto;">
+						<img width="273" style="float:left;"src="images/services.png"/>
+						<br/><br/>
+						<h1 class="header">About</h1>
+					</div>
+				</div>
 				<!--<p class="header">How awesome can it be?</p>-->
 			</section>
 	<!--start services-mobile header-->
@@ -312,7 +319,13 @@
 		<section id="works-top">
 	<!--start works-desktop header-->
 			<section id="works-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<h1 class="header">Products</h1>
+				<div class="footer_products">
+					<div style="width:875px;margin:auto;">
+						<img width="260" style="float:left;"src="images/brain fly.jpg"/>
+						<br/><br/>
+						<h1 class="header">Products</h1>
+					</div>
+				</div>
 				<!--<p class="header">How awesome it is?</p>-->
 			</section>
 	<!--start works-mobile header-->
@@ -445,7 +458,13 @@
 		<section id="gallery-top">
 	<!--start gallery-desktop header-->
 			<section id="gallery-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<h1 class="header">Services</h1>
+				<div class="footer_services">
+					<div style="width:875px;margin:auto;">
+						<img width="244" style="float:left;"src="images/jj_natlgeodude.jpg"/>
+						<br/><br/>
+						<h1 class="header">Services</h1>
+					</div>
+				</div>
 				<!--<p class="header">Alternative Works Version</p>-->
 			</section>
 	<!--start gallery-mobile header-->
@@ -626,7 +645,13 @@
 		<section id="team-top">
 	<!--start team-desktop header-->
 			<section id="team-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<h1 class="header">Support</h1>
+				<div class="footer_support">
+					<div style="width:875px;margin:auto;">
+						<img style="float:left;"src="images/head7.png"/>
+						<br/><br/>
+						<h1 class="header">Support</h1>
+					</div>
+				</div>
 				<!--<p class="header">Coffees and Apple</p>-->
 			</section>
 	<!--start team-mobile header-->
@@ -680,7 +705,13 @@
 		<section id="contact-top">
 	<!--start contact-desktop header-->
 			<section id="contact-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<h1 class="header">Signin</h1>
+				<div class="footer_signin">
+					<div style="width:875px;margin:auto;">
+						<img width="265" style="float:left;"src="images/skelton.png"/>
+						<br/><br/>
+						<h1 class="header">Sign in</h1>
+					</div>
+				</div>
 				<!--<p class="header">Fill up our inbox, we like that</p>-->
 			</section>
 	<!--start contact-mobile header-->
@@ -803,6 +834,11 @@
 		</script>
 		
 		<script>
+			$('.search').focusin(function(){
+				$('.back').css('background-image','url(images/search_background2.png)');
+			}).focusout(function(){
+				$('.back').css('background-image','url(images/search_background.png)');
+			});
 			var timeoutHolder;
 			var animateToCenter = false;
 			
