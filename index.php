@@ -74,14 +74,14 @@
 						<div class="wrapper wrapper2" style="margin-top:-180px;">
 							<div class="content-box">
 								<div class="searchbox_style">
-									<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
+									<img style="z-index:100;position:relative;margin-top:21px;" class="first" src="images/first1.png" alt="first">
 									<div class="back" style="">
 										<form style="display:none" method="post" action="" class="form">
 										<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
 										<a class="btn btn-default"  href="#">GO</a>
 										</form>
 									</div>
-									<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
+									<img style="z-index:100;position:relative;margin-top:21px;"class="second" src="images/second2.png" alt="first">
 								</div>
 							</div>
 						</div>
@@ -109,11 +109,6 @@
 				<div class="footer-wrapper">
 					<div class="footer-blog1">
 						<div id="footer_slider">
-								<!-- <a>
-									<img class="slider_img" src="img/footer_slider/skelton.png" alt="" />
-									<img src="img/footer_slider/humedica.png" alt="" />
-									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
-								</a> -->
 								<a>
 									<div class="img_shadow">
 										<img class="slider_img" src="img/footer_slider/iStock_000003473034Large.jpg" alt="" />
@@ -188,15 +183,7 @@
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 							</div>
-						<!-- <img src="images/skelton.png" class="skelton" /> -->
 					</div>
-				<!--<div class="footer-blog2">
-					<img src="images/humedica.png" />
-					<ul>
-					    <li>Meet Hiteks at New Orleans, March 3-7</li>
-					    <li>Humedica Conference/HIMSS Booth #5221</li>
-					</ul>
-				</div>-->
 				<div class="footer-blog3">
 				    <img src="images/letter-breaks.png" style="float:left;" />
 				    <ul>
@@ -242,8 +229,7 @@
 			<div style="clear:both;"></div>
 			<!--<div class="fadeInUp delay animated hidden-phone" id="more">
 				<a href="#services-top" class="m-btn a-btn blue big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
-			</div>-->
-						
+			</div>-->			
 		</section>
 	<!--start services intro footer-
 	
@@ -578,7 +564,7 @@
 		</section>
 	<!--end thumbnails section-->
 	<!--start lightboxes-->
-		<div id="gallery_1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+		<!--<div id="gallery_1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
 			<div class='lightbox-content'>
 				<img src="img/gallery/gallery_1@2x.jpg" alt="">
 			</div>
@@ -637,7 +623,7 @@
 			<div class='lightbox-content'>
 				<img src="img/gallery/gallery_12@2x.jpg" alt="">
 			</div>
-		</div>
+		</div>-->
 	<!--end lightbox section-->
 		<!--<section id="hint3">
 			<a href="http://twitter.github.com/bootstrap/components.html" target="_blank"><strong>Heads up!</strong> Click here to check all built-in components</a>
@@ -879,7 +865,7 @@
 				}else{
 					minx = $(window).width() / 2-200;
 					height=350;
-					miny= 100;
+					miny= 75;
 					width= $(window).width() / 2+50;
 				}
 				
@@ -936,33 +922,10 @@
 					$('.aObjects').stop(true);
 					animateToCenter=false;
 				}
+				$(window).resize(function(){
+					$('.search').focus();
+				});
 
-				/* $('.search').focusin(function(){
-					var queue = $('.aObjects').queue();
-					$('.aObjects').queue(queue.slice(0,1));
-					animateToCenter=true;
-				}).focusout(function(){
-					var queue = $('.aObjects').queue();
-					$('.aObjects').queue(queue.slice(0,1));
-					animateToCenter=false;
-				}); */
-					
-				
-				//setTimeout(function(){ clearTimeout(timeoutHolder)}, 5000)
-				/* var animate=function(){
-					for(var i=1;i<=50;i++){
-						$("."+i).css("display","block");
-						random(object="."+i);
-					}		
-				}
-				var interval = setInterval(animate,3000);
-				function random(){
-					var width=$(window).width();
-					var left = Math.floor(Math.random()*width);
-					var top = Math.floor(Math.random()*700);
-					var speed = Math.floor(Math.random()*5000)+5000;
-					$(object).animate({left: left, top: top},speed);
-				} */
 			});
 		</script>
 		

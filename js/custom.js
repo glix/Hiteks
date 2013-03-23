@@ -19,7 +19,7 @@
 		// console.log(introSectionHeight);
 		if ( windowHeight > introSectionHeight ) {
 			var difference = windowHeight - introSectionHeight;
-			$("#intro .wrapper2").css({'margin-top': '+=' + difference});
+			$("#intro .wrapper2").css({'margin-bottom': '+=' + difference});
 		}
 		/*
 		$(window).resize(function(){

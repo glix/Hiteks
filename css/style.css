@@ -1168,6 +1168,7 @@ background:url('../images/search_background.png');
 	float:left;
 	position:relative;
 	display:none;
+	margin-top:21px;
 }
 .first{
 padding-left:300px;}
