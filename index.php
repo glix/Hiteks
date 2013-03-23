@@ -67,24 +67,25 @@
 				</div>
 			</div>
 		</div>
-		<section id="intro" style="min-height:650px!important;">
+		<section id="intro">
 			<div class="container">
 				<div class="row">
-					
-					<div class="wrapper wrapper2">
-						<div class="content-box">
-							<div class="searchbox_style">
-								<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
-								<div class="back" style="">
-									<form style="display:none" method="post" action="" class="form">
-									<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
-									<a class="btn btn-default"  href="#">GO</a>
-									</form>
+					<div class="span12" style="margin:auto;">
+						<div class="wrapper wrapper2" style="margin-top:-180px;">
+							<div class="content-box">
+								<div class="searchbox_style">
+									<img style="z-index:100;position:relative;" class="first" src="images/first1.png" alt="first">
+									<div class="back" style="">
+										<form style="display:none" method="post" action="" class="form">
+										<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
+										<a class="btn btn-default"  href="#">GO</a>
+										</form>
+									</div>
+									<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
 								</div>
-								<img style="z-index:100;position:relative;"class="second" src="images/second2.png" alt="first">
 							</div>
 						</div>
-					</div>
+					</div>	
 					<?php
 						$img=1;
 						for($i=1;$i<=50;$i++){
@@ -92,18 +93,11 @@
 							if($img==33){
 								$img=1;
 							}
-							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:630px;top:400px;'><img src='icon/$img.png'/></div>";
+							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:50%;top:200px;'><img src='icon/$img.png'/></div>";
 						}
 					?>
 				</div>	
 			</div>
-			<!--<div class="fadeInUp delay animated hidden-phone" id="more">
-				<a href="#services-top" class="m-btn a-btn blue big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
-			</div>-->
-		</section>
-	<!--start services intro footer-->
-		<section id="intro">
-	<!--start services-desktop header-->
 			<div class="footer-upper">
 				<div class="wrapper">
 					<p>Expert Medial terminolgy simplified & explained with our easy search toolkit & advanced API. Anyone can use Hiteks, because everyone's time is valueable.</p>
@@ -245,29 +239,39 @@
 					<img src="images/big-skelton.png" class="big-skelton">
 				</div>
 			</div>
+			<div style="clear:both;"></div>
+			<!--<div class="fadeInUp delay animated hidden-phone" id="more">
+				<a href="#services-top" class="m-btn a-btn blue big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
+			</div>-->
+						
+		</section>
+	<!--start services intro footer-
+	
+		<section id="intro">
+	<!--start services-desktop header-->
+
 	<!--start services-mobile header-->
 			<!-- <section id="services-top-mobile" class="hidden-desktop">
 				<h1 class="header">Services</h1>
 				<p class="header">How awesome can it be?</p>
-			</section> -->
-		</section>
+			</section> 
+		</section>-->
 		
 	
 		<section id="services-top">
 	<!--start services-desktop header-->
 			<section id="services-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<div class="footer_about">
-					<div style="width:875px;margin:auto;">
-						<img width="273" style="float:left;"src="images/services.png"/>
-						<br/><br/>
+					<div class="page_style">
+						<img src="images/services.png" alt="" />
 						<h1 class="header">About</h1>
 					</div>
-				</div>
 				<!--<p class="header">How awesome can it be?</p>-->
 			</section>
 	<!--start services-mobile header-->
 			<section id="services-top-mobile" class="hidden-desktop">
-				<h1 class="header">About</h1>
+				
+					<h1 class="header"><img src="images/services.png" alt="" /> About</h1>
+				
 				<!--<p class="header">How awesome can it be?</p>-->
 			</section>
 		</section>
@@ -319,18 +323,17 @@
 		<section id="works-top">
 	<!--start works-desktop header-->
 			<section id="works-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<div class="footer_products">
-					<div style="width:875px;margin:auto;">
-						<img width="260" style="float:left;"src="images/brain fly.jpg"/>
-						<br/><br/>
-						<h1 class="header">Products</h1>
-					</div>
+				<div class="page_style">
+					<img src="images/jj_natlgeodude.jpg" alt="" />
+					<h1 class="header">Products</h1>
 				</div>
+
+
 				<!--<p class="header">How awesome it is?</p>-->
 			</section>
 	<!--start works-mobile header-->
 			<section id="works-top-mobile" class="hidden-desktop">
-				<h1 class="header">Products</h1>
+				<h1 class="header"><img src="images/jj_natlgeodude.jpg" alt="" /> Products</h1>
 				<!--<p class="header">How awesome it is?</p>-->
 			</section>
 		</section>
@@ -458,18 +461,16 @@
 		<section id="gallery-top">
 	<!--start gallery-desktop header-->
 			<section id="gallery-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<div class="footer_services">
-					<div style="width:875px;margin:auto;">
-						<img width="244" style="float:left;"src="images/jj_natlgeodude.jpg"/>
-						<br/><br/>
-						<h1 class="header">Services</h1>
-					</div>
+				<div class="page_style">
+					<img src="images/head7.png" alt="" />
+					<h1 class="header">Services</h1>
 				</div>
+
 				<!--<p class="header">Alternative Works Version</p>-->
 			</section>
 	<!--start gallery-mobile header-->
 			<section id="gallery-top-mobile" class="hidden-desktop">
-				<h1 class="header">Services</h1>
+				<h1 class="header"><img src="images/head7.png" alt="" /> Services</h1>
 				<!--<p class="header">Alternative Works Version</p>-->
 			</section>
 		</section>
@@ -645,18 +646,18 @@
 		<section id="team-top">
 	<!--start team-desktop header-->
 			<section id="team-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<div class="footer_support">
-					<div style="width:875px;margin:auto;">
-						<img style="float:left;"src="images/head7.png"/>
-						<br/><br/>
-						<h1 class="header">Support</h1>
-					</div>
+				<div class="page_style">
+					<img src="images/brain fly.jpg" alt="" />
+					<h1 class="header">Support</h1>
 				</div>
+
 				<!--<p class="header">Coffees and Apple</p>-->
 			</section>
 	<!--start team-mobile header-->
 			<section id="team-top-mobile" class="hidden-desktop">
-				<h1 class="header">Support</h1>
+					
+					<h1 class="header"><img src="images/brain fly.jpg" alt="" /> Support</h1>
+			
 				<!--<p class="header">Coffees and Apple</p>-->
 			</section>
 		</section>
@@ -705,18 +706,16 @@
 		<section id="contact-top">
 	<!--start contact-desktop header-->
 			<section id="contact-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-				<div class="footer_signin">
-					<div style="width:875px;margin:auto;">
-						<img width="265" style="float:left;"src="images/skelton.png"/>
-						<br/><br/>
-						<h1 class="header">Sign in</h1>
-					</div>
+				<div class="page_style">
+					<img src="images/skelton.png" alt="" />
+					<h1 class="header">Sign in</h1>
 				</div>
+
 				<!--<p class="header">Fill up our inbox, we like that</p>-->
 			</section>
 	<!--start contact-mobile header-->
 			<section id="contact-top-mobile" class="hidden-desktop">
-				<h1 class="header">Signin</h1>
+				<h1 class="header"><img src="images/skelton.png" alt="" /> Signin</h1>
 				<!--<p class="header">Fill up our inbox, we like that</p>-->
 			</section>
 		</section>
@@ -874,14 +873,14 @@
 				var height;
 				if(animateToCenter == false){
 					width=$(window).width();
-					height = 700;
+					height = 400;
 					minx = 0;
 					miny= 0;
 				}else{
-					minx = $(window).width() / 2+50;
-					height=500;
-					miny= 250;
-					width= 400;
+					minx = $(window).width() / 2-200;
+					height=350;
+					miny= 100;
+					width= $(window).width() / 2+50;
 				}
 				
 				var left = getRandomInt(minx, width);
@@ -918,7 +917,6 @@
 				
 				$('.search').keyup(function(event){
 					var s=$(this).val();
-					console.log(s);
 					if(s == ""){
 						stateNormal();
 					}else{

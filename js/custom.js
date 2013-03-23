@@ -11,10 +11,21 @@
 
 //make section height of window
 	$(function(){
-		$('#intro').css({'height':($(window).height())+'px'});
+		//$('#intro').css({'height':($(window).height())+'px'});
+		var introSectionHeight = $("#intro").height();
+		var windowHeight = $(window).height();
+		
+		// console.log(windowHeight);
+		// console.log(introSectionHeight);
+		if ( windowHeight > introSectionHeight ) {
+			var difference = windowHeight - introSectionHeight;
+			$("#intro .wrapper2").css({'margin-top': '+=' + difference});
+		}
+		/*
 		$(window).resize(function(){
 		$('#intro').css({'height':($(window).height())+'px'});
 		});
+		*/
 	});
 
 //custom scrollbar
