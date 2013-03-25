@@ -19,8 +19,13 @@
 		// console.log(introSectionHeight);
 		if ( windowHeight > introSectionHeight ) {
 			var difference = windowHeight - introSectionHeight;
-			$("#intro .wrapper2").css({'margin-bottom': '+=' + difference});
+			//$("#intro .wrapper2").css({'margin-bottom': '+=' + difference});//old
+			
+			$("#intro .wrapper2").css({'margin-bottom': '+=' + difference/2});//new
+			$(".wrapper2 .content-box").css({'margin-top': '+=' + difference/2});//new
+			$(".aObjects").animate({'margin-top': '+=' + difference/2});//new
 		}
+		
 		/*
 		$(window).resize(function(){
 		$('#intro').css({'height':($(window).height())+'px'});

@@ -2,9 +2,8 @@
 <html lang="en">
 	<head>
 		<title>Hiteks</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="MyWay - Parallax Retina Bootstrap Multipurpose Template">
-		<meta name="author" content="awerest - interactive agency">
+		<meta name="Danny Glix">
+		<!--<meta name="Danny Glix" content="awerest - interactive agency">-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -819,7 +818,7 @@
 		</script>
 		
 		<script>
-			$('.search').focusin(function(){
+			$('.search').click(function(){
 				$('.back').css('background-image','url(images/search_background2.png)');
 			}).focusout(function(){
 				$('.back').css('background-image','url(images/search_background.png)');
@@ -859,9 +858,18 @@
 				var height;
 				if(animateToCenter == false){
 					width=$(window).width();
-					height = 400;
+					
 					minx = 0;
 					miny= 0;
+					if($(window).height() > 1300 & $(window).height() < 1800){
+						height=$(window).height()/2+50;
+					}
+					else if($(window).height() > 1800){
+						height=$(window).height()/2+70;
+					}
+					else{
+						height=$(window).height()/2;
+					}	
 				}else{
 					minx = $(window).width() / 2-200;
 					height=350;
