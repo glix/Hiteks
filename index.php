@@ -1,7 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Hiteks</title>  
+		<title>Hiteks</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 		
 		<meta name="Danny Glix" content="">
 		<!--<meta name="Danny Glix" content="awerest - interactive agency">-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
