@@ -1035,7 +1035,7 @@ src: url('font/penguin-bold.ttf')
     color: #bfbfbf;
     margin: 1px 0 1px 10px;
 }
-#footer{
+#home_footer{
 	height:auto;
 	width:100%;
 	background:#dfdfdf;
@@ -1068,7 +1068,7 @@ src: url('font/penguin-bold.ttf')
 .footer-upper .text{
 	padding-top:5px;
 }
-#footer .footer-wrapper{
+#home_footer .footer-wrapper{
 	width:955px;
 	height:auto;
 	margin:auto auto;

@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Hiteks</title>
-		<meta name="Danny Glix">
+		<title>Hiteks</title>  
+		<meta name="Danny Glix" content="">
 		<!--<meta name="Danny Glix" content="awerest - interactive agency">-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</a>
-						<a href="#intro" class="brand"><img src="images/logo.png"></a>
+						<a href="#intro" class="brand"><img alt="image" src="images/logo.png"></a>
 						<div class="nav-collapse collapse">
 							<ul class="nav pull-right">
 								<li><a href="#intro">HOME</a></li>
@@ -75,12 +75,12 @@
 								<div class="searchbox_style">
 									<img style="z-index:100;position:relative;margin-top:21px;" class="first" src="images/first1.png" alt="first">
 									<div class="back" style="">
-										<form style="display:none" method="post" action="" class="form">
+										<form style="display:none" method="post" class="form">
 										<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
 										<a class="btn btn-default"  href="#">GO</a>
 										</form>
 									</div>
-									<img style="z-index:100;position:relative;margin-top:21px;"class="second" src="images/second2.png" alt="first">
+									<img style="z-index:100;position:relative;margin-top:21px;" class="second" src="images/second2.png" alt="first">
 								</div>
 							</div>
 						</div>
@@ -92,7 +92,7 @@
 							if($img==33){
 								$img=1;
 							}
-							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:50%;top:200px;'><img src='icon/$img.png'/></div>";
+							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:50%;top:40%;'><img alt='icon' src='icon/$img.png'/></div>";
 						}
 					?>
 				</div>	
@@ -100,11 +100,11 @@
 			<div class="footer-upper">
 				<div class="wrapper">
 					<p>Expert Medial terminolgy simplified & explained with our easy search toolkit & advanced API. Anyone can use Hiteks, because everyone's time is valueable.</p>
-					<p class="text">Medicine's First and Only affordable & Accurate Clinical NLP Solution, <img src="images/licence-img.png" style="padding-left:40px; padding-right:5px;"> Licence it Now  <img src="images/video.png" style="padding-left:35px; padding-right:3px;"> Watch demo</p>
+					<p class="text">Medicine's First and Only affordable & Accurate Clinical NLP Solution, <img alt="image" src="images/licence-img.png" style="padding-left:40px; padding-right:5px;"> Licence it Now  <img alt="image" src="images/video.png" style="padding-left:35px; padding-right:3px;"> Watch demo</p>
 				</div>
 			</div>
 			<hr class="horizontal-line" />
-			<div id="footer">	
+			<div id="home_footer">	
 				<div class="footer-wrapper">
 					<div class="footer-blog1">
 						<div id="footer_slider">
@@ -143,7 +143,7 @@
 								</a>
 								<a>
 									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/mind chalk.jpg" alt="" />
+										<img class="slider_img" src="img/footer_slider/mind_chalk.jpg" alt="" />
 									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
@@ -159,7 +159,7 @@
 								</a>
 								<a>
 									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/brain fly.jpg" alt="" />
+										<img class="slider_img" src="img/footer_slider/brain_fly.jpg" alt="" />
 									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
@@ -184,7 +184,7 @@
 							</div>
 					</div>
 				<div class="footer-blog3">
-				    <img src="images/letter-breaks.png" style="float:left;" />
+				    <img alt="image" src="images/letter-breaks.png" style="float:left;" />
 				    <ul>
 					    <li>Hiteks. Medical Language Technology.</li>
 					    <li>Achieve Clinical Interoperability ability and Semantic search</li>
@@ -222,7 +222,7 @@
 									
 					
 				</div>
-					<img src="images/big-skelton.png" class="big-skelton">
+					<img alt="image" src="images/big-skelton.png" class="big-skelton">
 				</div>
 			</div>
 			<div style="clear:both;"></div>
@@ -230,9 +230,9 @@
 				<a href="#services-top" class="m-btn a-btn blue big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
 			</div>-->			
 		</section>
-	<!--start services intro footer-
+	<!--start services intro footer
 	
-		<section id="intro">
+		<section id="intro">-->
 	<!--start services-desktop header-->
 
 	<!--start services-mobile header-->
@@ -632,7 +632,7 @@
 	<!--start team-desktop header-->
 			<section id="team-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 				<div class="page_style">
-					<img src="images/brain fly.jpg" alt="" />
+					<img src="images/brain_fly.jpg" alt="" />
 					<h1 class="header">Support</h1>
 				</div>
 
@@ -641,7 +641,7 @@
 	<!--start team-mobile header-->
 			<section id="team-top-mobile" class="hidden-desktop">
 					
-					<h1 class="header"><img src="images/brain fly.jpg" alt="" /> Support</h1>
+					<h1 class="header"><img src="images/brain_fly.jpg" alt="" /> Support</h1>
 			
 				<!--<p class="header">Coffees and Apple</p>-->
 			</section>
@@ -750,7 +750,7 @@
 				<div class="row divide">
 	<!--logo and copyright-->
 					<div class="span3">
-						<a href="#intro" class="brand"><img src="images/logo.png"></a>
+						<a href="#intro" class="brand"><img alt="image" src="images/logo.png"></a>
 						<p>2013 © Hiteks</p><br>
 						<!--<p>myway is product <br> of <a href="http://www.awerest.com" target="_blank">awerest</a></p><br>-->
 					</div>
@@ -858,23 +858,15 @@
 				var height;
 				if(animateToCenter == false){
 					width=$(window).width();
-					
 					minx = 0;
 					miny= 0;
-					if($(window).height() > 1300 & $(window).height() < 1800){
-						height=$(window).height()/2+50;
-					}
-					else if($(window).height() > 1800){
-						height=$(window).height()/2+70;
-					}
-					else{
-						height=$(window).height()/2;
-					}	
+					var position = $('.footer-upper').position();
+					height = position.top;
 				}else{
 					minx = $(window).width() / 2-200;
-					height=350;
-					miny= 75;
 					width= $(window).width() / 2+50;
+					height = $('.back').position().top + 200;
+					miny = $('.back').position().top;
 				}
 				
 				var left = getRandomInt(minx, width);

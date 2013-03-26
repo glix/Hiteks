@@ -23,7 +23,6 @@
 			
 			$("#intro .wrapper2").css({'margin-bottom': '+=' + difference/2});//new
 			$(".wrapper2 .content-box").css({'margin-top': '+=' + difference/2});//new
-			$(".aObjects").animate({'margin-top': '+=' + difference/2});//new
 		}
 		
 		/*
