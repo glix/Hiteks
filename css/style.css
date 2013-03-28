@@ -10,6 +10,13 @@ body {
 	-webkit-backface-visibility: hidden;
 }
 
+@font-face
+{
+font-family: CondorWide Medium;
+src: url('font/CondorWide Medium.ttf')
+    ,url('font/CondorWide Medium.ttf'); /* IE9 */
+}
+
 ::selection {
 	background: #4d90fe;
 	color:#fff;
@@ -518,7 +525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', end
 .nav-collapse .nav li a  {
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 10px;
 	height:15px;
 }
 
@@ -906,12 +913,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', end
 /*my custom style starting here*/
 
 
-@font-face
-{
-font-family: penguin-bold;
-src: url('font/penguin-bold.ttf')
-    ,url('font/penguin-bold.ttf'); /* IE9 */
-}
+
 		input, button, select, textarea {
     font-family: arial;
 }
@@ -948,7 +950,7 @@ src: url('font/penguin-bold.ttf')
 }
 .nav ul li{
 	float:left;
-	font-family:'penguin-bold';
+	font-family:'CondorWide Medium';
 	letter-spacening:2px;
 	list-style-type:none;
 	height:48px;
@@ -962,7 +964,7 @@ src: url('font/penguin-bold.ttf')
 .nav ul li a{
 	text-decoration:none;
 	padding:10px;
-	font-family:penguin-bold;
+	font-family:CondorWide Medium;
 	display:block;
 	line-height:28px;
 	color:#707070;
@@ -1016,13 +1018,16 @@ src: url('font/penguin-bold.ttf')
 
 .form input[placeholder]{
 	color:#555555;
-	font-weight:bold;
-	font-size:12px;
+	font-size:11px;
+	font-family:'CondorWide Medium';
+	margin-left:-5px;
 }
 .form a{
 	text-decoration:none;
 	color:#e545a2;
-	font-weight:bold;
+	margin-left:7px;
+	font-size:10px;
+	font-family:'CondorWide Medium';
 }
 .btn .btn-default{
 	margin-bottom:-10px;
@@ -1047,7 +1052,7 @@ src: url('font/penguin-bold.ttf')
 	height:87px;
 	opacity:.6;
 	width:100%;
-	background:rgba(225,225,225,0.8);
+	background:#dfdfdf;
 	text-align:center;
 	vertical-align:middle;
 	line-height:0;
@@ -1205,7 +1210,8 @@ padding-left:300px;}
  	height:100px;
  	width:122px;
  	float:left;
- 	box-shadow: 0px 0px 20px #000;
+ 	padding-right:20px;
+ 	/*box-shadow: 0px 0px 20px #000;*/
  	border-radius:5px;
  }
  #footer_slider a:hover  {
@@ -1291,10 +1297,10 @@ margin-left: -250px;
 }
 }
 
-.img_shadow{
+/*.img_shadow{
 	padding-right:20px;
 	float: left;
-}
+}*/
 .page_style{
 	margin:auto;
 	width:870px;
@@ -1309,4 +1315,7 @@ margin-left: -250px;
 	/*width:700px;*/
 	margin:auto;
 	padding-top:80px;
+}
+.webmaster{
+	margin-left:30px;
 }

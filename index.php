@@ -46,7 +46,7 @@
 		<div class="navbar navbar-fixed-top" id="navigation">
 			<div class="navbar-inner">
 				<div class="container" style="background:#ccc;width:100%">
-					<div class="header-container" style="width:870px;margin:auto;font-family:penguin-bold;">
+					<div class="header-container" style="width:870px;margin:auto;font-family:CondorWide Medium;">
 						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -110,78 +110,62 @@
 					<div class="footer-blog1">
 						<div id="footer_slider">
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/iStock_000003473034Large.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery1.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 									
 								</a>
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/iStock_000006811627XSmall.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery2.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/iStock_000010754350XLarge.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery3.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/jj_natlgeodude.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery4.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/mind_chalk.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery5.png" alt="" />	
+									<img src="img/footer_slider/humedica.png" alt="" />
+									<img src="img/footer_slider/himss.png" alt="" />
+									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
+								</a>
+								<a> 
+									<img class="slider_img" src="img/footer_slider/jquery6.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<div class="img_shadow"> 
-										<img class="slider_img" src="img/footer_slider/XR_041.JPG" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery7.png" alt="" />	
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
 								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/brain_fly.jpg" alt="" />
-									</div>
+									<img class="slider_img" src="img/footer_slider/jquery8.png" alt="" />
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
 								</a>
-								<a>
-									<div class="img_shadow">
-										<img class="slider_img" src="img/footer_slider/head7.jpg" alt="" />
-									</div>
-									<img src="img/footer_slider/humedica.png" alt="" />
-									<img src="img/footer_slider/himss.png" alt="" />
-									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
-								</a>
-								<a>
+								<!-- <a>
 									<div class="img_shadow">
 										<img class="slider_img" src="img/footer_slider/iStock_000000409116_L2.jpg" alt="" />
 									</div>
 									<img src="img/footer_slider/humedica.png" alt="" />
 									<img src="img/footer_slider/himss.png" alt="" />
 									<p>Meet Hiteks at New Orleans, March 3-7 Humedica Conference/HIMSS Booth #5221</p>
-								</a>
+								</a> -->
 							</div>
 					</div>
 				<div class="footer-blog3">
@@ -194,12 +178,18 @@
 				    </ul>
 				</div>
 				<div class="company-names" style="clear:both;padding-top:15px">
-					<img src="images/footer1.png" alt="2" style="margin-right:18px; height:24px" class="firstnames" />
+					<img src="images/icon1.png" alt="" style="margin-right:20px;" />
+					<img src="images/icon2.png" alt="" style="margin-right:20px;" />
+					<img src="images/icon3.png" alt="" style="margin-right:20px;margin-top:5px" />
+					<img src="images/icon4.png" alt="" style="margin-right:20px;" />
+					<img src="images/icon5.png" alt="" style="margin-right:20px;" />
+					<img src="images/icon6.png" alt="" style="" />
+					<!-- <img src="images/icon1.png" alt="2" style="margin-right:18px; height:24px" class="firstnames" />
 				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;padding-right:8px" />
 					<img src="images/anolinx.png" alt="4" style="height:50px;width:80px"/>
 					<img src="images/fda_logo.png" alt="5" style="height:43px" />
 					<img src="images/acupera.png" alt="6" style="height:25px" />
-					<img src="images/eellas_logo.png" alt="6" style="height:50px;margin-top:-10px" />
+					<img src="images/eellas_logo.png" alt="6" style="height:50px;margin-top:-10px" /> -->
 				</div>
 				<div style="float:left;">
 					<div class="footer-nav">
@@ -266,6 +256,19 @@
 			<div class="container">
 				<div class="row divide">
 					<div class="span12">
+					<p>
+						Hiteks supports health care providers, researchers and insurers with responsive, high quality data systems that allow for quickly answering clinical, research and administrative questions.
+					</p>
+					
+					
+					<p>Hiteks Solutions was founded to support and promote advanced yet practical capabilities in Medical Informatics and Clinical Decision Support. Health care organizations seek to achieve an ability to work more intuitively and meaningfully with clinical data, which is necessary to compete in today’s and tomorrow’s healthcare environments. The ability to influence and monitor clinical decisions to enhance patient safety, ensure quality, control costs and discover new medical knowledge can only be achieved through user-friendly, efficient technologies and access to the right clinical information. Amidst the confusion set forth in the marketplace, Hiteks outlines a clear value proposition to our current and potential customers.</p>
+
+					<p>Our focus is to provide the guidance and tools required for clinicians, researchers and administrators to make informed decisions. Once they can access information comfortably, they can use their expertise to choose amongst the thousands of data-driven recommendations available to better understand diseases and achieve quality care. Our core team of medical informaticists and clinicians approach problem-solving and decision-making with an emphasis that allows for our customers and partners to achieve better actionable information at the right time.</p>
+
+					<p>Because our origins are from practicing patient care as clinicians and developing innovative medicines as researchers, we are sensitive to how we approach problems, engage with customers and deliver technologies. Healthcare at the end of the day is not too different from other industries, and informed consumers make for better customers. We pride ourselves on being able to educate professionals in health care industries to facilitate truly informed decision-making that takes patient outcomes, efficiencies and costs into consideration.</p>
+					
+					
+					
 						<ul class="thumbnails">
 							<li class="span4">
 								<div class="thumbnail">
@@ -274,6 +277,9 @@
 									<!--<span>HTML5 & CSS3 Valide Code</span>-->
 									<p>
 										Innovative thinking and creative learning are part of the work culture at Hiteks. We have a young and vibrant work environment where new ideas are encouraged. The team consists of people from a diverse set of backgrounds and experiences. New employees benefit from the collaborative and one-on-one training via our mentoring programs.
+									</p>
+									<p>
+										Our strategy is to learn from each engagement and use those experiences to craft out packaged products and services. The innovation at Hiteks does not halt when projects are delivered; in fact it takes a challenging trajectory that culminates into better offerings that serve a much larger audience. Employees are constantly challenged to think out of box and beyond the obvious. Our team is on the look out to create the next generation technology products and explore product centric collaborative ventures while retaining their individuality and independent thinking.
 									</p>
 								</div>
 							</li>
@@ -285,6 +291,9 @@
 									<p>
 										With a deep understanding of population-based research using health informatics techniques, we focus our attention on providing tools to enable clinicians to assess and act on information quality issues which support public health, outcomes research, health economics and translational research & development.
 									</p>
+									<p>
+										Through its partners and network of research-optimized clinical and research sites, Hiteks enables Electronic Clinical Research, including database studies, registries, health economics analyses, translational medicine and clinical trials.  Clinical Cloud™ also supports cross-center recruitment for industry-sponsored and other studies by using data-driven approaches to finding the most difficult to find patient records, or patients themselves.  The Clinical Cloud™ uses industry leading data transformations, data models and data visualization to accommodate all forms of phenotype and genotype data which can be used to support cutting-edge translational research programs.
+									</p>
 								</div>
 							</li>
 							<li class="span4">
@@ -292,6 +301,9 @@
 									<i class="icon-stethoscope"></i>
 									<h4>Hiteks Team</h4>
 									<!--<span>HTML5 & CSS3 Valide Code</span>-->
+									<p>
+										As a company and as individuals, we are committed to improving the daily lives of clinicians, scientists and health administrators. By working closely with our clients and partners, we find methods to make business processes and technologies work together. Through meaningful interactions with our network, our business regularly finds out new capabilities and interests in those with whom we work. Our most precious interactions, of course, are with our team members. The Hiteks team is comprised of management and advisory board members with the experience necessary to direct the company’s day-to-day operations and growth strategy, while continually looking for innovative ways to meet the needs of clients and investors. 
+									</p>
 									<p>
 										At Hiteks we love metamorphosing complex technology into simple and clean information at your fingertips. Founded by a group of creative entrepreneurs, Hiteks has an energetic and vibrant atmosphere.
 									</p>
@@ -301,6 +313,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="fullHeight"></div>
 		</section>
 		<!--<section id="hint1">
 			<a href="http://fortawesome.github.com/Font-Awesome/" target="_blank"><strong>HEADS UP!</strong> Click here to check all <strong>249 icons</strong> that we integrated in this template</a>
@@ -343,11 +356,19 @@
 					</div>
 					<div class="span8 offset2">
 						<h1>Hiteksite</h1>
-						<!--<h4>Works layout 1 + carousel with vertical slide effect</h4>-->
-						<p class="center">Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, 
+						<p>Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, 
 						the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae.
 						The rset can be a toatl mses and you can sitll raed it wouthit porbelm. 
 						Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe. Awesomeness, true story!</p>
+						
+						<h1>Unique Clinical Data Sources</h1>
+						<p>Health authorities, Life Sciences, payers, providers and patient groups are asking for more meaningful, actionable, detailed clinical information to assess the appropriateness of medical therapies, differential diagnoses, medication safety, efficacy and comparability of populations in different geographies and demographics.  The information needed to support these requests means being able to find sources that can help address these questions.  The ideal sources can be identified through new networks of digital, de-identified, clinical databases which can be secured for multiple purposes.  With a deep understanding of population-based research using health informatics techniques, we have constructed for clients the tools to structure databases to support information needs in public health, outcomes research, health economics and drug research & development.</p>
+						
+						<h1>Next Generation Clinical Databases</h1>
+						<p>Creating a structured set of databases that can be distributed through existing channels of Commercial Data Companies in the Life Sciences, Insurance and Consumer Health has a tremendous value that can be realized by understanding the type of data available, physician specialties represented, and the extent of linkage to other data sources and the longitudinal nature of the data.  The commercialization process would include setting up a refresh rate of availability of new data to meet the market needs (e.g. daily or weekly for marketing, and monthly or quarterly for epidemiology) as well as an efficient way to train on and to provide access to the data that allows for de-identification and the ability to drill down and conduct medical chart reviews in an electronic streamlined process.  Due to payer, clinical, regulatory and marketing needs, data needs to be efficiently analyzed and presented when clinical and business questions arise related to understanding patient populations and the medical market.  Access to real-time intelligence allows consumer of the data to leverage insight from multiple rich sources so that they can better understand diseases and their management.</p>
+						
+						<h1>Medical Intelligence</h1>
+						<p>Understanding and responsibly using clinical information allows today’s healthcare organizations to leverage insight from rich sources of clinical data to identify targeted clinical data that better characterizes diseases and their management.  Both structured and unstructured clinical and administrative data can create a more complete picture of clinical populations.  Although data standardization complicates matters, there are straightforward ways to deal with this issue that enables apples-to-apples comparisons.  The challenge is no longer to simply report on clinical data, rather to conduct real-time analytics on clinical databases so that knowledgeable experts can become more informed.   To help support research, most medical centers have the doctors and patients who are eligible for and interested in participating in research, but not the optimal administration or facilities required to attract sponsored industry research.  Enhances in recruitment are possible for difficult to find patient records, or patients themselves although the number of potentially eligible patients who need to be screened increases significantly compared to manual identification methods for protocols.  Through the appropriate data and insight, consumers can apply algorithms and understand how patient data is stored, structured and transmitted to target only the most protocol-relevant patients with a high positive predictive value.</p>
 					</div>
 				</div>
 				<!--<div class="divider"></div>-->
@@ -439,6 +460,7 @@
 					</div>
 				</div>-->
 			</div>
+			<div class="fullHeight"></div>
 		</section>
 		<!--<section id="hint2">
 			<a href="http://twitter.github.com/bootstrap/base-css.html" target="_blank"><strong>Heads up!</strong> Click here to check all built-in shortcodes</a>
@@ -466,9 +488,26 @@
 			<div class="container">
 				<div class="row divide">
 					<div class="span8 offset2">
-						<h1>Clinical Data Intelligence (Health Insights™)</h1>
-						<p class="center">
+						<h1>Services</h1>
+						<p>With a deep understanding of population-based research using health informatics techniques, we focus our attention on providing tools to enable clinicians to assess and act on information quality issues which support public health, outcomes research, health economics and translational research & development.
+						</p>
+						<p>
+							Using existing, available electronic healthcare data collected by most medical centers and doctors’ offices, or applying Hiteks’ tools and platform for data capture and processing, we work with customers in the following ways:
+						</p>
+						<h3>Electronic Clinical Research (Clinical Cloud™)</h3>
+						<p>
+							Through its partners and network of research-optimized clinical and research sites, Hiteks enables Electronic Clinical Research, including database studies, registries, health economics
+						</P>
+						<p>
+							Through its partners and network of research-optimized clinical and research sites, Hiteks enables Electronic Clinical Research, including database studies, registries, health economics analyses, translational medicine and clinical trials.  Clinical Cloud™ also supports cross-center recruitment for industry-sponsored and other studies by using data-driven approaches to finding the most difficult to find patient records, or patients themselves.  The Clinical Cloud™ uses industry leading data transformations, data models and data visualization to accommodate all forms of phenotype and genotype data which can be used to support cutting-edge translational research programs.
+						</p>
+						<h3>Clinical Data Intelligence (Health Insights™)</h3>
+						<p>
 							Easy access to rich sources of clinical data to better understand diseases and their management are supported through the transformation of structured and unstructured clinical and administrative data and presented with an intuitive user-friendly interface that allows for population cohort selection, sub-setting, drill-down, slicing and dicing.  As a modern clinical data analytics system should, Health InsightsTM applies customizable queries against electronic clinical data.  Differentiating us from others, we do not require tedious, lengthy data standardization up-front, rather we conduct all the data standardization on the back-end using a unique ontology-creation approach that enables us to compare apples to apples. Health InsightsTM is the only tool on the market which has both an intuitive user-friendly interface and works on all types of data sources to support population-based analytics.
+						</P>
+						<h3>Data Processing (Data Xpress™)</h3>
+						<p>
+							Because more than half of all meaningful clinical information is captured as clinical documentation (through typed, dictated and/or transcribed processes) to use in progress notes, discharge summaries, radiology reports, consult notes, history & physical, etc., Hiteks has attracted the world leaders in structured data and natural language processing to its team.  Our experts use both open-source and proprietary frameworks to accomplish accurate pre-processing, parsing, tokenizing and medical concept and relationship structuring on electronic records, the internet, medical journals, and drug and device labels to present the results in a user-friendly interface.  Knowledge bases can be created through Data XpressTM  that allow for them to be plugged into other marketed Clinical Decision Support tools or into Health InsightsTM .
 						</p>
 					</div>
 					<!--<div class="span12">
@@ -561,6 +600,7 @@
 					</div>-->
 				</div>
 			</div>
+			<div class="fullHeight"></div>
 		</section>
 	<!--end thumbnails section-->
 	<!--start lightboxes-->
@@ -656,6 +696,18 @@
 						<p class="center">
 							As a company and as individuals, we are committed to improving the daily lives of clinicians, scientists and health administrators. By working closely with our clients and partners, we find methods to make business processes and technologies work together. Through meaningful interactions with our network, our business regularly finds out new capabilities and interests in those with whom we work. Our most precious interactions, of course, are with our team members. The Hiteks team is comprised of management and advisory board members with the experience necessary to direct the company’s day-to-day operations and growth strategy, while continually looking for innovative ways to meet the needs of clients and investors. 
 						</p>
+						<p>
+							Our belief is that we can help our customers with better and more actionable clinical information at the right time. As in other disciplines, health care providers, researchers and insurers have reached a tipping point in that they can now have the ability to leverage the power of responsible, secure, and timely sharing of clinical knowledge from text-based documentation, medical journals, FDA drug labels and Clinical Trial Protocols.
+						</p>
+						<p>
+							At Hiteks we love metamorphosing complex technology into simple and clean information at your fingertips. Founded by a group of creative entrepreneurs, Hiteks has an energetic and vibrant atmosphere.
+						</p>	
+						<p>
+							The Hiteks team is comprised of individuals from diversified backgrounds; data management, portal design, user experience, financial services, pharmaceuticals, and healthcare.
+						</p>
+						<p>	
+							This collective intelligence combined with a broad industry skills enables us to assist clients in leveraging technology to improve their business processes and gain a competitive advantage. 
+						</p>
 					</div>
 					<!--<div class="span12">
 						<ul class="thumbnails">
@@ -687,6 +739,7 @@
 					</div>-->
 				</div>
 			</div>
+			<div class="fullHeight"></div>
 		</section>
 	<!--start contact header-->
 		<section id="contact-top">
@@ -744,6 +797,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="fullHeight"></div>
 		</section>
 	<!--start footer-->
 		<section id="footer">
@@ -776,7 +830,11 @@
 							<li><a class="instagram" href="#" target="_blank">Instagram</a></li>
 							<li><a class="pinterest" href="#" target="_blank">Pinterest</a></li>
 						</ul>
-					</div>	
+					</div>
+					<div class="webmaster">
+						<span>Webmaster</span><br/>
+						<span style="font-size:10px;">Danny Glix</span>
+					</div>
 				</div>	
 			</div>
 		</section>
@@ -927,6 +985,9 @@
 					$('.search').focus();
 				});
 
+			});	
+			$(window).resize(function(){
+				$('.fullHeight').css({'height':$(window).height()});
 			});
 		</script>
 		
