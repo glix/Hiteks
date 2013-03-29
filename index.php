@@ -46,7 +46,7 @@
 		<div class="navbar navbar-fixed-top" id="navigation">
 			<div class="navbar-inner">
 				<div class="container" style="background:#ccc;width:100%">
-					<div class="header-container" style="width:870px;margin:auto;font-family:CondorWide Medium;">
+					<div class="header-container" style="width:935px;margin:auto;font-family:CondorWide Medium;">
 						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -77,7 +77,7 @@
 									<img style="z-index:100;position:relative;margin-top:21px;" class="first" src="images/first1.png" alt="first">
 									<div class="back" style="">
 										<form style="display:none" method="post" class="form">
-										<input  type="text" name="text" class="search" placeholder="SEARCH HERE" />
+										<input  type="text" name="text" class="search" />
 										<a class="btn btn-default"  href="#">GO</a>
 										</form>
 									</div>
@@ -238,7 +238,7 @@
 	<!--start services-desktop header-->
 			<section id="services-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 					<div class="page_style">
-						<img src="images/services.png" alt="" />
+						<!-- <img src="images/services.png" alt="" /> -->
 						<h1 class="header">About</h1>
 					</div>
 				<!--<p class="header">How awesome can it be?</p>-->
@@ -246,16 +246,16 @@
 	<!--start services-mobile header-->
 			<section id="services-top-mobile" class="hidden-desktop">
 				
-					<h1 class="header"><img src="images/services.png" alt="" /> About</h1>
+					<h1 class="header"><!-- <img src="images/services.png" alt="" /> --> About</h1>
 				
 				<!--<p class="header">How awesome can it be?</p>-->
 			</section>
 		</section>
 	<!--start services-->
 		<section id="services">
-			<div class="container">
+			<div class="container" style="width:935px">
 				<div class="row divide">
-					<div class="span12">
+					<div class="span12" style="width:920px;">
 					<p>
 						Hiteks supports health care providers, researchers and insurers with responsive, high quality data systems that allow for quickly answering clinical, research and administrative questions.
 					</p>
@@ -270,7 +270,7 @@
 					
 					
 						<ul class="thumbnails">
-							<li class="span4">
+							<li class="span4" style="width:285px;">
 								<div class="thumbnail">
 									<i class="icon-cogs"></i>
 									<h4>Careers</h4>
@@ -283,7 +283,7 @@
 									</p>
 								</div>
 							</li>
-							<li class="span4">
+							<li class="span4" style="width:285px;">
 								<div class="thumbnail">
 									<i class="icon-eye-open"></i>
 									<h4>Services</h4>
@@ -296,7 +296,7 @@
 									</p>
 								</div>
 							</li>
-							<li class="span4">
+							<li class="span4" style="width:285px;">
 								<div class="thumbnail">
 									<i class="icon-stethoscope"></i>
 									<h4>Hiteks Team</h4>
@@ -323,7 +323,7 @@
 	<!--start works-desktop header-->
 			<section id="works-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 				<div class="page_style">
-					<img src="images/jj_natlgeodude.jpg" alt="" />
+					<!-- <img src="images/jj_natlgeodude.jpg" alt="" /> -->
 					<h1 class="header">Products</h1>
 				</div>
 
@@ -332,15 +332,15 @@
 			</section>
 	<!--start works-mobile header-->
 			<section id="works-top-mobile" class="hidden-desktop">
-				<h1 class="header"><img src="images/jj_natlgeodude.jpg" alt="" /> Products</h1>
+				<h1 class="header"><!-- <img src="images/jj_natlgeodude.jpg" alt="" /> --> Products</h1>
 				<!--<p class="header">How awesome it is?</p>-->
 			</section>
 		</section>
 	<!--start works-->
 		<section id="works">
-			<div class="container">
+			<div class="container" style="width:935px;">
 				<div class="row divide">
-					<div class="span12">
+					<div class="span12" style="width:920px;">
 						<!--<div id="carousel_vertical_slide" class="carousel slide vertical">
 							<div class="carousel-inner">
 								<div class="active item">
@@ -353,8 +353,8 @@
 							<button class="carousel-control left m-btn icn-only" href="#carousel_vertical_slide" data-slide="prev"><i class="icon-chevron-left"></i></button>
 							<button class="carousel-control right m-btn icn-only" href="#carousel_vertical_slide" data-slide="next"><i class="icon-chevron-right"></i></button>
 						</div>-->
-					</div>
-					<div class="span8 offset2">
+					
+					<!--<div class="span8 offset2">-->
 						<h1>Hiteksite</h1>
 						<p>Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, 
 						the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae.
@@ -470,7 +470,7 @@
 	<!--start gallery-desktop header-->
 			<section id="gallery-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 				<div class="page_style">
-					<img src="images/head7.png" alt="" />
+					<!-- <img src="images/head7.png" alt="" /> -->
 					<h1 class="header">Services</h1>
 				</div>
 
@@ -478,16 +478,17 @@
 			</section>
 	<!--start gallery-mobile header-->
 			<section id="gallery-top-mobile" class="hidden-desktop">
-				<h1 class="header"><img src="images/head7.png" alt="" /> Services</h1>
+				<h1 class="header"><!-- <img src="images/head7.png" alt="" /> --> Services</h1>
 				<!--<p class="header">Alternative Works Version</p>-->
 			</section>
 		</section>
 	<!--start gallery-->
 	<!--start thumbnails section-->
 		<section id="gallery">
-			<div class="container">
+			<div class="container" style="width:935px;">
 				<div class="row divide">
-					<div class="span8 offset2">
+					<div class="span12" style="width:920px;">
+					<!--<div class="span8 offset2">-->
 						<h1>Services</h1>
 						<p>With a deep understanding of population-based research using health informatics techniques, we focus our attention on providing tools to enable clinicians to assess and act on information quality issues which support public health, outcomes research, health economics and translational research & development.
 						</p>
@@ -673,7 +674,7 @@
 	<!--start team-desktop header-->
 			<section id="team-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 				<div class="page_style">
-					<img src="images/brain_fly.jpg" alt="" />
+					<!-- <img src="images/brain_fly.jpg" alt="" /> -->
 					<h1 class="header">Support</h1>
 				</div>
 
@@ -682,16 +683,17 @@
 	<!--start team-mobile header-->
 			<section id="team-top-mobile" class="hidden-desktop">
 					
-					<h1 class="header"><img src="images/brain_fly.jpg" alt="" /> Support</h1>
+					<h1 class="header"><!-- <img src="images/brain_fly.jpg" alt="" />  -->Support</h1>
 			
 				<!--<p class="header">Coffees and Apple</p>-->
 			</section>
 		</section>
 	<!--start team-->
 		<section id="team">
-			<div class="container">
+			<div class="container" style="width:935px;">
 				<div class="row divide">
-					<div class="span8 offset2">
+				<div class="span12" style="width:920px;">
+					<!--<div class="span8 offset2">-->
 						<h1>We are Hiteks</h1>
 						<p class="center">
 							As a company and as individuals, we are committed to improving the daily lives of clinicians, scientists and health administrators. By working closely with our clients and partners, we find methods to make business processes and technologies work together. Through meaningful interactions with our network, our business regularly finds out new capabilities and interests in those with whom we work. Our most precious interactions, of course, are with our team members. The Hiteks team is comprised of management and advisory board members with the experience necessary to direct the company’s day-to-day operations and growth strategy, while continually looking for innovative ways to meet the needs of clients and investors. 
@@ -746,7 +748,7 @@
 	<!--start contact-desktop header-->
 			<section id="contact-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
 				<div class="page_style">
-					<img src="images/skelton.png" alt="" />
+					<!-- <img src="images/skelton.png" alt="" /> -->
 					<h1 class="header">Sign in</h1>
 				</div>
 
@@ -754,57 +756,58 @@
 			</section>
 	<!--start contact-mobile header-->
 			<section id="contact-top-mobile" class="hidden-desktop">
-				<h1 class="header"><img src="images/skelton.png" alt="" /> Signin</h1>
+				<h1 class="header"><!-- <img src="images/skelton.png" alt="" /> --> Signin</h1>
 				<!--<p class="header">Fill up our inbox, we like that</p>-->
 			</section>
 		</section>
 	<!--start contact-->
 		<section id="contact">
-			<div class="container">
-				<div class="row divide">
-					<div class="span8">
-						<div class="row">
-							<form action="js/sendmail.php" method="post" id="contactForm">
-								<div class="span4">
-									<label>Name:</label>
-									<input type="text" name="name" value="" id="name" class="span4"/>
-								</div>
-								<div class="span4">
-									<label>Email:</label>
-									<input type="text" name="email" value="" id="email"  class="span4"/>
-								</div>
-								<span class="honeypot">
-									<label>Honeypot:</label>
-									<input type="text" name="last" value="" id="last"/>
-								</span>
-								<div class="span8">
-									<label>Message:</label>
-									<textarea rows="6" name="message" class="span8"></textarea>
-								</div>
-								<div class="span8">
-									<div class="message"><div class="alert"></div></div>
-									<input type="submit" value="Send" class="m-btn blue"/>
-								</div>
-							</form>
-						</div>
-					</div>
-	<!--start sidebar-->
-					<div class="span4" id="address">
-						<p>NEW YORK<br>
-						521 Fifth Ave,<br> 32nd Floor New York,<br> NY 10175</p>
-						<p><abbr title="Phone">P:</abbr>  +1-212-920-0929<br>
-						<abbr title="Fax">F:</abbr> +1-212-931-5508 <br></p>
-					</div>
-				</div>
-			</div>
-			<div class="fullHeight"></div>
-		</section>
+<div class="container" style="width:935px">
+<div class="row divide">
+<div class="span10" style="width:700px;">
+<div class="row">
+<form action="js/sendmail.php" method="post" id="contactForm">
+<div class="span3">
+<label>Name:</label>
+<input type="text" name="name" value="" id="name" class="span3"/>
+</div>
+<div class="span3">
+<label>Email:</label>
+<input type="text" name="email" value="" id="email" class="span3"/>
+</div>
+<span class="honeypot">
+<label>Honeypot:</label>
+<input type="text" name="last" value="" id="last"/>
+</span>
+<div class="span6">
+<label>Message:</label>
+<textarea rows="6" name="message" class="span6"></textarea>
+</div>
+<div class="span6">
+<div class="message"><div class="alert"></div></div>
+<input type="submit" value="Send" class="m-btn blue"/>
+</div>
+</form>
+</div>
+</div>
+<!--start sidebar-->
+<div class="span2" id="address">
+<p>NEW YORK<br>
+521 Fifth Ave,<br> 32nd Floor New York,<br> NY 10175</p>
+<p><abbr title="Phone">P:</abbr> +1-212-920-0929<br>
+<abbr title="Fax">F:</abbr> +1-212-931-5508 <br></p>
+</div>
+</div>
+</div>
+<div class="fullHeight"></div>
+</section>
+
 	<!--start footer-->
 		<section id="footer">
 			<div class="container">
 				<div class="row divide">
 	<!--logo and copyright-->
-					<div class="span3">
+					<div class="span3" style="margin-left:150px; width:120px;">
 						<a href="#intro" class="brand"><img alt="image" src="images/logo.png"></a>
 						<p>2013 © Hiteks</p><br>
 						<!--<p>myway is product <br> of <a href="http://www.awerest.com" target="_blank">awerest</a></p><br>-->
@@ -832,8 +835,8 @@
 						</ul>
 					</div>
 					<div class="webmaster">
-						<span>Webmaster</span><br/>
-						<span style="font-size:10px;">Danny Glix</span>
+						<span style="margin-left:117px;">Webmaster</span><br/>
+						<span style="font-size:10px; margin-left:117px;">Danny Glix</span>
 					</div>
 				</div>	
 			</div>
@@ -989,6 +992,13 @@
 			$(window).resize(function(){
 				$('.fullHeight').css({'height':$(window).height()});
 			});
+			setInterval(function(){
+				if($('.search').val().length > 0){
+					 $('.search').css({'background-image':'none'});
+				}else{
+					$('.search').css({'background-image':'url(images/placeholder.png)','background-repeat':'no-repeat'});
+				}	 
+			},1);
 		</script>
 		
 	</body>
