@@ -100,8 +100,8 @@
 			</div>
 			<div class="footer-upper">
 				<div class="wrapper">
-					<p>Expert Medial terminolgy simplified & explained with our easy search toolkit & advanced API. Anyone can use Hiteks, because everyone's time is valueable.</p>
-					<p class="text">Medicine's First and Only affordable & Accurate Clinical NLP Solution, <img alt="image" src="images/licence-img.png" style="padding-left:40px; padding-right:5px;"> Licence it Now  <img alt="image" src="images/video.png" style="padding-left:35px; padding-right:3px;"> Watch demo</p>
+					<p style="color:#000;">Expert Medial terminolgy simplified & explained with our easy search toolkit & advanced API. Anyone can use Hiteks, because everyone's time is valuable.</p>
+					<p class="text" style="color:#000">Medicine's First and Only affordable & Accurate Clinical NLP Solution, <img alt="image" src="images/licence-img.png" style="padding-left:40px; padding-right:5px;"> Licence it Now  <img alt="image" src="images/video.png" style="padding-left:35px; padding-right:3px;"> Watch demo</p>
 				</div>
 			</div>
 			<hr class="horizontal-line" />
@@ -178,7 +178,7 @@
 				    </ul>
 				</div>
 				<div class="company-names" style="clear:both;padding-top:15px">
-					<img src="images/icon1.png" alt="" style="margin-right:20px;" />
+					<img src="images/icon1.png" alt="" style="margin-right:20px; margin-left:12px;" />
 					<img src="images/icon2.png" alt="" style="margin-right:20px;" />
 					<img src="images/icon3.png" alt="" style="margin-right:20px;margin-top:5px" />
 					<img src="images/icon4.png" alt="" style="margin-right:20px;" />
