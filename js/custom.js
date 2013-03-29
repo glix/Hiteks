@@ -11,10 +11,25 @@
 
 //make section height of window
 	$(function(){
-		$('#intro').css({'height':($(window).height())+'px'});
+		//$('#intro').css({'height':($(window).height())+'px'});
+		var introSectionHeight = $("#intro").height();
+		var windowHeight = $(window).height();
+		
+		// console.log(windowHeight);
+		// console.log(introSectionHeight);
+		if ( windowHeight > introSectionHeight ) {
+			var difference = windowHeight - introSectionHeight;
+			//$("#intro .wrapper2").css({'margin-bottom': '+=' + difference});//old
+			
+			$("#intro .wrapper2").css({'margin-bottom': '+=' + difference/2});//new
+			$(".wrapper2 .content-box").css({'margin-top': '+=' + difference/2});//new
+		}
+		
+		/*
 		$(window).resize(function(){
 		$('#intro').css({'height':($(window).height())+'px'});
 		});
+		*/
 	});
 
 //custom scrollbar
