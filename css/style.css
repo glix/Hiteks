@@ -516,7 +516,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', end
 }
 
 .navbar .btn-navbar {
-	float: right;
+	float: left;
 	padding: 12px 12px;
 	margin: 12px 0;
 }
