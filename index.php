@@ -86,11 +86,12 @@
 							</div>
 						</div>
 					</div>	
+					
 					<?php
 						$img=1;
 						for($i=1;$i<=50;$i++){
 							$img++;
-							if($img==33){
+							if($img==51){
 								$img=1;
 							}
 							echo "<div class='$i aObjects' style='display:none;opacity:.3;position:absolute;z-index:1;left:50%;top:40%;'><img alt='icon' src='icon/$img.png'/></div>";
@@ -101,7 +102,7 @@
 			<div class="footer-upper">
 				<div class="wrapper">
 					<p style="color:#000;">Expert Medial terminolgy simplified & explained with our easy search toolkit & advanced API. Anyone can use Hiteks, because everyone's time is valuable.</p>
-					<p class="text" style="color:#000">Medicine's First and Only affordable & Accurate Clinical NLP Solution, <img alt="image" src="images/licence-img.png" style="padding-left:40px; padding-right:5px;"> Licence it Now  <img alt="image" src="images/video.png" style="padding-left:35px; padding-right:3px;"> Watch demo</p>
+					<p class="text" style="color:#000">Medicine's First and Only affordable & Accurate Clinical NLP Solution <a href="#" class="btn btn-mfast-5" style="margin-left:20px;"><img alt="image" src="images/licence-img.png" /> Licence it Now</a><a href="#" class="btn btn-mfast-5" style="margin-left:10px;"><img alt="image" src="images/video.png" /> Watch demo</a></p>
 				</div>
 			</div>
 			<hr class="horizontal-line" />
@@ -811,6 +812,11 @@
 						<a href="#intro" class="brand"><img alt="image" src="images/logo.png"></a>
 						<p>2013 © Hiteks</p><br>
 						<!--<p>myway is product <br> of <a href="http://www.awerest.com" target="_blank">awerest</a></p><br>-->
+						<div class="desinBy">
+							<span class="design">Design by</span><br/>
+							<span><a href="http://dannyglix.com">Glix</a> & James
+							<a href="http://voris.org">Voris</a></span>
+						</div>
 					</div>
 	<!--footer menu-->
 					<div class="span2 offset4">
@@ -833,10 +839,6 @@
 							<li><a class="instagram" href="#" target="_blank">Instagram</a></li>
 							<li><a class="pinterest" href="#" target="_blank">Pinterest</a></li>
 						</ul>
-					</div>
-					<div class="webmaster">
-						<span style="margin-left:117px;">Webmaster</span><br/>
-						<span style="font-size:10px; margin-left:117px;">Danny Glix</span>
 					</div>
 				</div>	
 			</div>
