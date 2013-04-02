@@ -180,12 +180,11 @@
 				    </ul>
 				</div>
 				<div class="company-names" style="clear:both;padding-top:15px">
-					<img src="images/icon1.png" alt="" style="margin-right:20px; margin-left:12px;" />
-					<img src="images/icon2.png" alt="" style="margin-right:20px;" />
-					<img src="images/icon3.png" alt="" style="margin-right:20px;margin-top:5px" />
-					<img src="images/icon4.png" alt="" style="margin-right:20px;" />
-					<img src="images/icon5.png" alt="" style="margin-right:20px;" />
-					<img src="images/icon6.png" alt="" style="" />
+					<img src="images/icon1.png" alt="" style="margin-right:13px; margin-left:12px;" />
+					<img src="images/icon2.png" alt="" style="margin-right:13px;" />
+					<img src="images/icon3.png" alt="" style="margin-right:13px;" />
+					<img src="images/icon4.png" alt="" style="margin-right:13px;" />
+					<img src="images/icon5.png" alt="" style="margin-right:13px; margin-bottom:10px;" />
 					<!-- <img src="images/icon1.png" alt="2" style="margin-right:18px; height:24px" class="firstnames" />
 				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;padding-right:8px" />
 					<img src="images/anolinx.png" alt="4" style="height:50px;width:80px"/>
