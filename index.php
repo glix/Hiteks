@@ -26,8 +26,8 @@
 				.after('<div id="slider_nav">')
 				.cycle({
 			        fx: 'fade',
-			        timeout: 500,
-			        speedIn:3000,
+			        timeout:1000,
+			        speedIn:1000,
 					pager:  '#slider_nav'
 			    });
 			    $('#slider_nav a').empty();
@@ -100,7 +100,7 @@
 			<div class="footer-upper">
 				<div class="wrapper">
 					<p style="color:#000;">HITEKS’ Mission is to improve the interoperability of clinical data and transform data into actionable intelligence.</p>
-					<p class="text" style="color:#000">Medicine's First and Only Affordable, Accurate, Commercial & Extensible Clinical NLP Solution, <a href="#" class="btn btn-mfast-5" style="margin-left:20px;"><img alt="image" src="images/licence-img.png" /> Licence it Now</a><a href="#" class="btn btn-mfast-5" style="margin-left:10px;"><img alt="image" src="images/video.png" /> Watch demo</a></p>
+					<p class="text" style="color:#000">Medicine's First and Only Affordable, Accurate, Commercial & Extensible Clinical NLP Solution, <a href="#" class="btn btn-mfast-5"><img alt="image" src="images/licence-img.png" /> Licence it Now</a><a href="#" class="btn btn-mfast-5" style="margin-left:10px;"><img alt="image" src="images/video.png" /> Watch demo</a></p>
 				</div>
 			</div>
 			<hr class="horizontal-line" />
@@ -177,11 +177,11 @@
 				    </ul>
 				</div>
 				<div class="company-names" style="clear:both;padding-top:15px">
-					<img src="images/icon1.png" alt="" style="margin-right:13px; margin-left:12px;" />
-					<img src="images/icon2.png" alt="" style="margin-right:13px;" />
-					<img src="images/icon3.png" alt="" style="margin-right:13px;" />
-					<img src="images/icon4.png" alt="" style="margin-right:13px;" />
-					<img src="images/icon5.png" alt="" style="margin-right:13px; margin-bottom:10px;" />
+					<img src="images/icon1.png" alt="" style="margin-right:10px; margin-left:12px;" />
+					<img src="images/icon2.png" alt="" style="margin-right:10px;" />
+					<img src="images/icon3.png" alt="" style="margin-right:10px;" />
+					<img src="images/icon4.png" alt="" style="margin-right:10px;" />
+					<img src="images/icon5.png" alt="" style="margin-right:10px; margin-bottom:10px;" />
 					<!-- <img src="images/icon1.png" alt="2" style="margin-right:18px; height:24px" class="firstnames" />
 				    <img src="images/fda-logo-vector.png" alt="3" style="height:50px;padding-right:8px" />
 					<img src="images/anolinx.png" alt="4" style="height:50px;width:80px"/>
@@ -486,9 +486,9 @@
 	<!--logo and copyright-->
 					<div class="span3">
 						<a href="#intro" class="brand"><img src="img/logo.png" alt=""></a>
-						<p>2013 © Hiteks</p><br><br><br><br><br><br>
-						<p>
-							<b>Design by</b><br>
+						<p>2013 © Hiteks</p>
+						<p style="margin-top:150px;">
+							<b>Design by: </b>
 							<span>
 								<a href="http://dannyglix.com">Glix</a> & James
 								<a href="http://voris.org">Voris</a>

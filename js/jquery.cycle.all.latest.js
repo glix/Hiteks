@@ -350,7 +350,7 @@ function buildOptions($cont, $slides, els, options, o) {
 		if (!opts.sync)
 			opts.speed = opts.speed / 2;
 		
-		var buffer = opts.fx == 'shuffle' ? 500 : 250;
+		var buffer = opts.fx == 'shuffle' ? 500 : 500;
 		while((opts.timeout - opts.speed) < buffer) // sanitize timeout
 			opts.timeout += opts.speed;
 	}
@@ -860,12 +860,12 @@ $.fn.cycle.ver = function() { return ver; };
 // override these globally if you like (they are all optional)
 $.fn.cycle.defaults = {
 	fx:			  'fade', // name of transition effect (or comma separated names, ex: 'fade,scrollUp,shuffle')
-	timeout:	   2000,  // milliseconds between slide transitions (0 to disable auto advance)
+	timeout:	   null,  // milliseconds between slide transitions (0 to disable auto advance)
 	timeoutFn:     null,  // callback for determining per-slide timeout value:  function(currSlideElement, nextSlideElement, options, forwardFlag)
 	continuous:	   0,	  // true to start next transition immediately after current one completes
 	speed:		   3000,  // speed of the transition (any valid fx speed value)
 	speedIn:	   null,  // speed of the 'in' transition
-	speedOut:	   null,  // speed of the 'out' transition
+	speedOut:	   1,  // speed of the 'out' transition
 	next:		   null,  // selector for element to use as event trigger for next slide
 	prev:		   null,  // selector for element to use as event trigger for previous slide
 //	prevNextClick: null,  // @deprecated; please use onPrevNextEvent instead

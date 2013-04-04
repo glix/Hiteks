@@ -773,6 +773,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', end
 	bottom: 0;
 	background-color: #fff;
 	z-index: 9999;
+	margin-top:58px;
 }
 
 #status {
@@ -969,7 +970,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', end
 }
 .footer-upper p{
 	font-size:11px;
-	line-height:5px;
 	color:#3b3b3b;
 	padding-top:30px;
 	cursor:default;
